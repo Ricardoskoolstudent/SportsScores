@@ -1,6 +1,12 @@
 # Create an Intramural score tracker
 
-# Each team entry is a list that includes
+SPH_NAME = 0
+SPH_GP = 1
+SPH_W = 2
+SPH_L = 3
+SPH_T = 4
+SPH_GF = 5
+SPH_GA = 6
 #   - Name
 #   - Games Played
 #   - Wins
@@ -8,6 +14,8 @@
 #   - Ties
 #   - Goals For
 #   - Goals Against
+team=[SPH_NAME,0,0,0,0,0,0]
+print("--- Welcome to the SportsScores Intramural Tracker ---")
 
 # You will ask how many teams are playing.
 # Loop that many times, create a team and set all scores to 0, then append it to your list of teams
